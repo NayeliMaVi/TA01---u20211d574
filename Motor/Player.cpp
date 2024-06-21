@@ -32,4 +32,5 @@ void Player::update(vector<string>& levelData, vector<Human*>& humans, vector<Zo
 		position.x += speed;
 	}
 	collideWithLevel(levelData);
+
 }
